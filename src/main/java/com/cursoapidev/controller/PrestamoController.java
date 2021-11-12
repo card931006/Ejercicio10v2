@@ -46,10 +46,12 @@ public class PrestamoController {
 		return temPrest;
 	}
 	
+	/*
 	@PostMapping
 	public Prestamo create(@RequestBody Prestamo pres) {
 		prestamos.add(pres);
 		System.out.println(pres);
 		return pres;
 	}
+	*/
 }

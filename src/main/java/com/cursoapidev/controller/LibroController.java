@@ -42,10 +42,11 @@ public class LibroController {
 		return libroTemp;
 	}
 	
-	@PostMapping
+	/*@PostMapping
 	public Libro create(@RequestBody Libro libro) {
 		libros.add(libro);
 		System.out.println(libro);
 		return libro;
 	}
+	*/
 }

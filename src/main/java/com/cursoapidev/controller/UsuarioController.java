@@ -44,10 +44,10 @@ public class UsuarioController {
 		return usuarioTemporal;
 	}
 	
-	@PostMapping
+	/*@PostMapping
 	public Usuario create(@RequestBody Usuario usr) {
 		usuarios.add(usr);
 		System.out.println(usr);
 		return usr;
-	}
+	}*/
 }
